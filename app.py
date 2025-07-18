@@ -36,13 +36,16 @@ st.markdown("""
     }
     
     .feature-box {
-        background: #f8f9fa;
-        padding: 1.5rem;
-        border-radius: 10px;
-        border-left: 4px solid #667eea;
-        margin: 1rem 0;
-        box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    background: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border-left: 4px solid #667eea;
+    margin: 1rem 0;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    color: #000; /* ← هذا السطر يغيّر لون الخط للأسود */
     }
+
+
     
     .result-box {
         padding: 2rem;
