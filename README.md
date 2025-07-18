@@ -46,12 +46,6 @@ This is a Deep Learning-based web app that **detects deepfake videos** using an 
 pip install -r requirements.txt
 streamlit run app.py
 
-📈 Future Improvements
-🔍 Add detection on full-length videos.
-
-🧪 Add Grad-CAM or face heatmaps.
-
-📱 Build a mobile app version.
 
 ☁️ Deploy on Hugging Face Spaces or AWS.
 
