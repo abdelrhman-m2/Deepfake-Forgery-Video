@@ -25,7 +25,7 @@ readme_content = """
 5. A confidence score is displayed
 
 ---
-##📁 Project Structure
+## 📁 Project Structure
 
 ├── app.py                  # Streamlit frontend
 ├── deepfake_detector_lstm.h5   # Pretrained model
