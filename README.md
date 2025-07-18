@@ -1,4 +1,3 @@
-readme_content = """
 # 🎭 DeepFake Video Detector
 
 🔍 A deep learning-based web application that detects deepfake videos using LSTM neural networks and the MobileNetV2 architecture.
