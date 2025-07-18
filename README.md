@@ -25,6 +25,14 @@ readme_content = """
 5. A confidence score is displayed
 
 ---
+##📁 Project Structure
+
+├── app.py                  # Streamlit frontend
+├── deepfake_detector_lstm.h5   # Pretrained model
+├── requirements.txt        # Python dependencies
+├── Dataset.text            # Video dataset links/info
+├── Fake video2.ipynb       # Training & preprocessing notebook
+└── README.md               # This file
 
 ## 📦 Installation
 
