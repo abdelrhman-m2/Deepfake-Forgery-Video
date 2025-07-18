@@ -47,8 +47,3 @@ pip install -r requirements.txt
 streamlit run app.py
 
 
-☁️ Deploy on Hugging Face Spaces or AWS.
-
-🙌 Credits
-Made with ❤️ by Abdulrahman — for educational and research purposes.
-
