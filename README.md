@@ -1,8 +1,5 @@
 # 🎭 DeepFake Video Detector 🎬
 
-![DeepFake Detector Banner](https://img.shields.io/badge/Status-Working-green)  
-🔗 Live App: [Click here](https://your-app-url.com) *(Replace this with actual ngrok or deployment URL)*
-
 ---
 
 ## 🧠 What is This Project?
