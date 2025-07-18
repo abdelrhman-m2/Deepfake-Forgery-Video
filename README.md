@@ -1,46 +1,34 @@
-# 🎭 DeepFake Video Detector 🎬
+readme_content = """
+# 🎭 DeepFake Video Detector
 
----
-
-## 🧠 What is This Project?
-
-This is a Deep Learning-based web app that **detects deepfake videos** using an **LSTM-based neural network** trained on frame sequences. It helps users identify manipulated videos with a **confidence score**.
+🔍 A deep learning-based web application that detects deepfake videos using LSTM neural networks and the MobileNetV2 architecture.
 
 ---
 
 ## 🚀 Features
 
-- 🧠 **Deep Learning**: Advanced neural network using LSTM and CNN.
-- 📱 **Mobile Optimized**: Efficient MobileNetV2 as the CNN backbone.
-- 🎬 **Video Analysis**: Processes sequential frames from uploaded videos.
-- ⚡ **Fast Processing**: Quickly analyzes short videos (up to 8 seconds).
-- 🔍 **High Accuracy**: Trained on a real/fake face dataset.
-- 📊 **Confidence Score**: Shows probability-based results.
+- 🧠 **Deep Learning** – Advanced LSTM and CNN architecture
+- 📱 **Mobile Optimized** – Efficient MobileNetV2 backbone
+- 🎬 **Video Analysis** – Frame-by-frame detection
+- ⚡ **Fast Processing** – Quick and responsive inference
+- 🔍 **High Accuracy** – Trained on large, curated datasets
+- 📊 **Confidence Score** – Output includes probability of being fake
 
 ---
 
-## 📂 Project Structure
+## 🛠 How It Works
 
-├── app.py # Streamlit app file
-├── Fake video2.ipynb # Colab notebook for model training
-├── deepfake_detector_lstm.h5 # Trained deep learning model
-├── requirements.txt # Python dependencies
-├── Dataset.text # Dataset source/info
-└── README.md # Project documentation
-
+1. **Upload Video** (MP4 format)
+2. The video is split into frames
+3. Each frame is passed through a CNN + LSTM pipeline
+4. The model predicts if the video is real or fake
+5. A confidence score is displayed
 
 ---
 
-## 🔧 How to Use
+## 📦 Installation
 
-### Option 1: Run in Google Colab
-1. Upload all files to Colab.
-2. Run all cells.
-3. Click the public URL generated via `ngrok`.
-
-### Option 2: Run Locally (Optional)
 ```bash
+git clone https://github.com/yourusername/deepfake-detector
+cd deepfake-detector
 pip install -r requirements.txt
-streamlit run app.py
-
-
